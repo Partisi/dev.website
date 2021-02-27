@@ -1,0 +1,51 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  background: hsl(270, 86%, 95%);
+}
+main {
+  margin: 24px;
+}
+#main-page-header-learning {
+  background: #eede4d;
+  padding: 42px 24px;
+  text-align: center;
+  border-radius: 24px;
+  font-size: 32px;
+}
+
+#book-list {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.each-book-wrapper {
+  margin: 12px;
+  border-radius: 16px;
+  background: #fe5f55;
+  width: 40%;
+  padding: 8px 24px;
+}
+.book-title {
+  color: black;
+}
+.book-title:visited {
+  color: gold;
+}
+.book-title:hover {
+  color: lightgrey;
+}
+.book-title-active {
+  color: lightskyblue;
+}
+
+.book-desc {
+  display: inline-block;
+  width: 50%;
+}
+.book-img {
+  float: right;
+}

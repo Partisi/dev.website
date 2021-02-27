@@ -3,63 +3,123 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="author" content="Erol Bickici" />
+    <meta name="description" content="Food Main Page" />
     <link rel="icon" href="./assets//icons8-school-director-50.png">
+
+    <link rel="stylesheet" type="text/css" href="./css/food.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/generalUse.css" />
+    <link rel="stylesheet" type="text/css" href="./css/mainHeader.css" />
+    <style>
+        #food-main-wrapper {
+            display: inline-flex;
+        }
+        #food-time {
+            background: #C7EFCF;
+            border-radius: 12px;
+            padding: 4px 12px;
+            width: 100%;
+            border-top-right-radius: 0px;
+        }
+        #food-main-img {
+            border: 8px solid rgb(209, 193, 193);
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+        #foods-i-love-wrapper {
+            margin-top: 12px;
+            background: #ff7970;
+            border-radius: 12px;
+            padding: 4px 12px;
+        }
+        #food-list {
+            background: yellow;
+            list-style: none;
+            padding: 0;
+            display: inline-flex;
+        }
+        .food-item {
+            background: #FE5F55;
+            border: 4px solid #E63462;
+            padding: 4px 24px;
+            width: 50%;
+            min-width: 200px;
+        }
+        #center-food-item {
+            background: #cf534a;
+            border-right: 0px;
+            border-left: 0px;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Food</title>
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">Web Dev Home</a>
-        <br /><br />
-        <nav>|
-            <a href="./index.html">About Me Home</a> |
-            <a href="./gaming.html">Gaming</a> |
-            <a href="./food.html">Food</a> |
-            <a href="./learning.html">Path of Learning</a> |
-            <a href="./interests.html">Interests</a> |
+    <header class="header-main-page">
+        <a class="top-nav-main-link" href="../index.html">Web Dev Home</a>
+        <nav class="top-nav-main-list">
+            <a class="top-nav-link" href="./index.html">About Me Home</a>
+            <a class="top-nav-link" href="./gaming.html">Gaming</a>
+            <a class="top-nav-link" href="./food.html">Food</a>
+            <a class="top-nav-link" href="./learning.html">Path of Learning</a>
+            <a class="top-nav-link" href="./interests.html">Interests</a>
         </nav>
-        <h1>Food</h1>
     </header>
 
     <main>
+        <h1 class="main-page-header-food">Food</h1>
         <section>
-            <article>
-                <h2>Food? Food!</h2>
-                <p>Who doesn't love food? Food is the embodiment of absolute pure good in the world. Food can't hurt
-                    you, reject you, or make you re-evaulate your life choices (unlike some girls I've dated). Anyway, food is great and I have had the privelege of having a family that
-                    encourages change and trying new things, particularly different types of food.</p>
-                <p>In general, I absolutely love BBQ. The thing with a lot of food these days is that it appears that
-                    the smaller the portion is, the more money is costs. Like I get it how some ingredients are coming
-                    from the Sicilian Mountain ridge and picked at exactly 4:05am every Tuesday, but when I go out to
-                    eat, I go with the desire to be at least somewhat full.</p>
-                <p>Too many times have I gone to a restaurant and they just gave me pigeon food. I'm sure they are
-                    trying their best, but I'm 6 4 and 200 pounds, so a piece of lettuce with soy sauce is NOT going to
-                    fill me up. BBQ, however, is fantastic and the entire premise is to keep eating, so it has
-                    quality AND quantity!</p>
-                <img src="https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/WBC_7095.jpg?format=2500w"
+            <article id="food-main-wrapper">
+                <div id="food-time">
+                    <h2>Food? Food!</h2>
+                    <p>Who doesn't love food? Food is the embodiment of absolute pure good in the world. Food can't hurt
+                        you, reject you, or make you re-evaulate your life choices (unlike some girls I've dated).
+                        Anyway,
+                        food is great and I have had the privelege of having a family that
+                        encourages change and trying new things, particularly different types of food.</p>
+                    <p>In general, I absolutely love BBQ. The thing with a lot of food these days is that it appears
+                        that
+                        the smaller the portion is, the more money is costs. Like I get it how some ingredients are
+                        coming
+                        from the Sicilian Mountain ridge and picked at exactly 4:05am every Tuesday, but when I go out
+                        to
+                        eat, I go with the desire to be at least somewhat full.</p>
+                    <p>Too many times have I gone to a restaurant and they just gave me pigeon food. I'm sure they are
+                        trying their best, but I'm 6 4 and 200 pounds, so a piece of lettuce with soy sauce is NOT going
+                        to
+                        fill me up. BBQ, however, is fantastic and the entire premise is to keep eating, so it has
+                        quality AND quantity!</p>
+                </div>
+                <img id="food-main-img"
+                    src="https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/WBC_7095.jpg?format=2500w"
                     alt="tons-of-food" width="300" height="200" />
             </article>
-            <article>
+            <article id="foods-i-love-wrapper">
                 <h2>Foods I Love</h2>
                 <p>I love a lot of food, but in particular, the following is a short list of my favorites!</p>
-                <ul>
-                    <li>
+                <ul id="food-list">
+                    <li class="food-item">
                         <h3>BBQ Ribs</h3>
                         <p>Going off what I previous said about BBQ, it is no surprise that I love ribs. For $20 you can
                             get a full rack of ribs and sides. Because I'm weird, I usually only have 1-2 meals a
                             day, so $20 for a single good day of eating is really not that shabby. I also almost forgot
                             to mention, but BBQ sauce with ribs is a combination conjured up by God himself for us to
-                            enjoy. For those of you in NJ, I highly recommend <a href="https://www.cubbysbarbeque.com/"
+                            enjoy. For those of you in NJ, I highly recommend <a class="generic-link" href="https://www.cubbysbarbeque.com/"
                                 target="_blank">Cubby's BBQ</a>.</p>
                         <img src="./assets/ribs-time.jpg" alt="beautiful-ribs" width="150" height="140" />
                     </li>
-                    <li>
+                    <li id="center-food-item" class="food-item">
                         <h3>Steak</h3>
                         <p>Steak is a classic meat. There really is not much to say besides the fact that cooking a
                             nice juicy NY strip on the grill is A1.</p>
                         <img src="./assets/nice-cooked-steak.jpg" alt="sexy-steak" width="150" height="140" />
                     </li>
-                    <li>
+                    <li class="food-item">
                         <h3>Chicken Wings</h3>
                         <p>Wings are an american classic, with a near endless amount of different sauces for different
                             occasions. Personally, I love a classic hot, honey BBQ, or an asian fusion sauce on my
@@ -71,12 +131,13 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-main-wrapper">
         <br />
-        <p><i>"I would collaborate with James Franco as a rapper any day,"<strong> -
+        <p class="footer-quote"><i>"I would collaborate with James Franco as a rapper any day,"<strong> -
                     Gucci Mane</strong></i></p>
-        <p><a href="https://www.linkedin.com/in/erol-bickici-9683a4183" target="_blank">Erol Bickici</a> - emb689</p>
-        <p><a href="mailto:emb689@nyu.edu">emb689@nyu.edu</a></p>
+        <p class="footer-signature-wrapper"><a class="footer-signature"
+                href="https://www.linkedin.com/in/erol-bickici-9683a4183" target="_blank">Erol Bickici</a> - emb689</p>
+        <p class="footer-email-wrapper"><a class="footer-email" href="mailto:emb689@nyu.edu">emb689@nyu.edu</a></p>
     </footer>
 </body>
 

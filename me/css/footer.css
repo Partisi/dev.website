@@ -1,0 +1,28 @@
+.footer-main-wrapper {
+    background: #333745;
+    margin-bottom: -16px;
+    padding: 24px;
+    font-size: 14px;
+    border-top: 4px solid #fe5f55;
+}
+.footer-quote {
+    color: white;
+    text-align: center;
+}
+.footer-signature-wrapper {
+    text-align: center;
+    color: #FE5F55;
+}
+.footer-signature {
+    color: #FE5F55;
+    font-style: italic;
+}
+.footer-signature:visited {
+    color: gold;
+}
+.footer-email-wrapper {
+    text-align: center;
+}
+.footer-email {
+    color: #e63462;
+}

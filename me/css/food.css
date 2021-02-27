@@ -1,0 +1,11 @@
+
+main {
+    margin: 24px;
+}
+.main-page-header-food {
+    background: #f5935a;
+    padding: 42px 24px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 32px;
+}

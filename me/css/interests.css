@@ -1,0 +1,30 @@
+
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+#main-page-header-interests {
+    background: #4144ff;
+    padding: 42px 24px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 32px;
+}
+.interest-group-wrapper {
+    background: #fe5f55;
+    border-radius: 12px;
+    padding: 6px 24px;
+    margin: 12px 0;
+    display: inline-flex;
+    align-items: center;
+}
+.interest-header {
+    font-size: 24px;
+    padding: 16px;
+}
+.interest-para {
+    padding: 12px;
+}
+.interest-asset {
+    float: right;
+}

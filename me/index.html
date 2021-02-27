@@ -3,54 +3,91 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="author" content="Erol Bickici" />
+    <meta name="description" content="About Me Main Page" />
     <link rel="icon" href="./assets//icons8-school-director-50.png">
+
+    <link rel="stylesheet" type="text/css" href="./css/aboutMe.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/generalUse.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>About Me</title>
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">Web Dev Home</a>
-        <br /><br />
-        <nav>|
-            <a href="./index.html">About Me Home</a> |
-            <a href="./gaming.html">Gaming</a> |
-            <a href="./food.html">Food</a> |
-            <a href="./learning.html">Path of Learning</a> |
-            <a href="./interests.html">Interests</a> |
+    <header class="header-main-page">
+        <a class="top-nav-main-link" href="../index.html">Web Dev Home</a>
+        <nav class="top-nav-main-list">
+            <a class="top-nav-link" href="./index.html">About Me Home</a>
+            <a class="top-nav-link" href="./gaming.html">Gaming</a>
+            <a class="top-nav-link" href="./food.html">Food</a>
+            <a class="top-nav-link" href="./learning.html">Path of Learning</a>
+            <a class="top-nav-link" href="./interests.html">Interests</a>
         </nav>
-        <h1>About Me</h1>
     </header>
     <main>
-        <section>
+        <h1 class="main-page-header-about-me">About Me</h1>
+        <section class="main-about-me-wrapper">
             <article>
-                <h2>Who?</h2>
-                <p>Hello! I'm Erol Bickici and I like technology, business, and all things cool! If you go around these pages, you can
-                    certainly learn a lot about me and what I enjoy doing! Feel free to stay around as long as you need!
-                </p>
-                <p>Here is my <a href="https://www.facebook.com/erol.bickici" target="_blank">Facebook</a>, if you are interested!</p>
+                <div class="main-about-me-info">
+                    <h2>Who?</h2>
+                    <p>Hello! I'm Erol Bickici and I like technology, business, and all things cool! If you go around
+                        these
+                        pages, you can
+                        certainly learn a lot about me and what I enjoy doing! Feel free to stay around as long as you
+                        need!
+                    </p>
 
-                <p>Here is also a gif I found that pretty accurately sums me up: </p>
-                <img src="https://media.giphy.com/media/WJudITk3NIcsU/giphy.gif" alt="fighting-gif" width="320" height="240" />
+                    <p>Here is my <a class="generic-link" href="https://www.facebook.com/erol.bickici" target="_blank">Facebook</a>, if you
+                        are
+                        interested!</p>
+                </div>
+                <p class="cute-gif-text">Here is also a gif I found that pretty accurately sums me up: </p>
+
+                <div class="super-kungfu-gif-wrapper">
+                    <img class="super-kungfu-gif" src="https://media.giphy.com/media/WJudITk3NIcsU/giphy.gif"
+                        alt="fighting-gif" width="320" height="240" />
+                </div>
+
             </article>
             <article>
-                <h2>What Information Can I Find Here?</h2>
-                <p>In these web pages, you can find information about my hobby of gaming, foods I enjoy eating, my idea of
-                    learning, and random interests I have!</p>
-                <p>For any additional reference, this is what I look like: </p>
-                <img src="./assets/sidelookmodified.png" alt="side-look" width="400" height="360" />
+                <div class="top-about-me-info">
+                    <h2>What Information Can I Find Here?</h2>
+                    <p>In these web pages, you can find information about my hobby of gaming, foods I enjoy eating, my
+                        idea
+                        of
+                        learning, and random interests I have!</p>
+                </div>
+                <ul id="picture-time-list">
+                    <li class="each-picture-item">
+                        <p class="pic-info">For any additional reference, this is what I look like: </p>
+                        <img class="pic-main" src="./assets/sidelookmodified.png" alt="side-look" width="400"
+                            height="360" />
+                    </li>
+                    <li class="each-picture-item">
+                        <p class="pic-info">...and this is what I looked like when I was younger (yes, I was a very cool
+                            kid): </p>
+                        <img class="pic-main" src="./assets/badb.JPG" alt="young-me" width="280" height="360" />
+                    </li>
+                </ul>
 
-                <p>...and this is what I looked like when I was younger (yes, I was a very cool kid): </p>
-                <img src="./assets/badb.JPG" alt="young-me" width="320" height="360" />
             </article>
         </section>
     </main>
-    <footer>
+
+    <footer class="footer-main-wrapper">
         <br />
-        <p><i>"If a man does not have the sauce, then he is lost. But the same man can be lost in the sauce,”<strong> -
+        <p class="footer-quote"><i>"If a man does not have the sauce, then he is lost. But the same man can be lost in
+                the sauce,”<strong> -
                     Gucci Mane</strong></i></p>
-        <p><a href="https://www.linkedin.com/in/erol-bickici-9683a4183" target="_blank">Erol Bickici</a> - emb689</p>
-        <p><a href="mailto:emb689@nyu.edu">emb689@nyu.edu</a></p>
+        <p class="footer-signature-wrapper"><a class="footer-signature"
+                href="https://www.linkedin.com/in/erol-bickici-9683a4183" target="_blank">Erol Bickici</a> - emb689</p>
+        <p class="footer-email-wrapper"><a class="footer-email" href="mailto:emb689@nyu.edu">emb689@nyu.edu</a></p>
     </footer>
+
 </body>
 
 </html>

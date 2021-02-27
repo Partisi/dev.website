@@ -3,66 +3,79 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="author" content="Erol Bickici" />
+    <meta name="description" content="Learning Main Page" />
     <link rel="icon" href="./assets//icons8-school-director-50.png">
-    <title>Interests</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/interests.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/generalUse.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Learning</title>
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">Web Dev Home</a>
-        <br /><br />
-        <nav>|
-            <a href="./index.html">About Me Home</a> |
-            <a href="./gaming.html">Gaming</a> |
-            <a href="./food.html">Food</a> |
-            <a href="./learning.html">Path of Learning</a> |
-            <a href="./interests.html">Interests</a> |
+    <header class="header-main-page">
+        <a class="top-nav-main-link" href="../index.html">Web Dev Home</a>
+        <nav class="top-nav-main-list">
+            <a class="top-nav-link" href="./index.html">About Me Home</a>
+            <a class="top-nav-link" href="./gaming.html">Gaming</a>
+            <a class="top-nav-link" href="./food.html">Food</a>
+            <a class="top-nav-link" href="./learning.html">Path of Learning</a>
+            <a class="top-nav-link" href="./interests.html">Interests</a>
         </nav>
-        <h1>Interests</h1>
     </header>
 
     <main>
+        <h1 id="main-page-header-interests">Interests</h1>
         <section>
-            <article>
-                <h2>Business</h2>
-                <p>When it comes to anything business-related, I absolutely love hustling and also earning some side
+            <article class="interest-group-wrapper">
+                <h2 class="interest-header">Business</h2>
+                <p class="interest-para">When it comes to anything business-related, I absolutely love hustling and also
+                    earning some side
                     profit. In particular, I have been invested into the stock market since I was maybe 16 years old. I
-                    started, not really to get into making money but moreso to learn and test my skills.</p>
-                <p>Besides the stock market, I also do enjoy learning about new business industries. I'm currently
+                    started, not really to get into making money but moreso to learn and test my skills.
+                    Besides the stock market, I also do enjoy learning about new business industries. I'm currently
                     looking into
                     and understanding cryptocurrency and other areas within fintech.</p>
-                <img src="./assets/stonks.jpg" alt="stonks" width="240" height="180" />
+                <img class="interest-asset" src="./assets/stonks.jpg" alt="stonks" width="240" height="180" />
             </article>
-            <article>
-                <h2>Technology</h2>
-                <p>There are many topics in technology that I really enjoy. I enjoy AI, 5G, and other emerging trends
-                    within the tech field. I also do follow the work of <a href="https://deepmind.com/"
-                        target="_blank">Deepmind</a> and <a href="https://www.bostondynamics.com/"
+            <article class="interest-group-wrapper">
+                <h2 class="interest-header">Technology</h2>
+                <p class="interest-para">There are many topics in technology that I really enjoy. I enjoy AI, 5G, and
+                    other emerging trends
+                    within the tech field. I also do follow the work of <a class="generic-link" href="https://deepmind.com/"
+                        target="_blank">Deepmind</a> and <a class="generic-link" href="https://www.bostondynamics.com/"
                         target="_blank">Boston Dynamics</a> to get a good sense
                     of current implementations within AI and robotics subsequently.</p>
-                <img src="https://media.giphy.com/media/2m1WnCqNuyEJnigDAP/giphy.gif" alt="dancing-robot" width="200"
-                    height="180" />
+                <img class="interest-asset" src="https://media.giphy.com/media/2m1WnCqNuyEJnigDAP/giphy.gif"
+                    alt="dancing-robot" width="200" height="180" />
             </article>
-            <article>
-                <h2>Random</h2>
-                <p>I am slowly becoming obessed with the cheese run. The cheese run is basically an
+            <article class="interest-group-wrapper">
+                <h2 class="interest-header">Random</h2>
+                <p class="interest-para">I am slowly becoming obessed with the cheese run. The cheese run is basically
+                    an
                     event in England that has a bunch of people racing down a steep hill to try and catch a cheese
                     wheel. I really don't know why it's so funny and fun for me to watch, but here is a small depiction
                     of the cheese run:</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Oeg63LKnSpI?start=155"
-                    frameborder="0"
+                <iframe class="interest-asset" width="920" height="245"
+                    src="https://www.youtube.com/embed/Oeg63LKnSpI?start=155" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </article>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-main-wrapper">
         <br />
-        <p><i>"I might be ugly, but my cars are real pretty,"<strong> -
+        <p class="footer-quote"><i>"I might be ugly, but my cars are real pretty,"<strong> -
                     Gucci Mane</strong></i></p>
-        <p><a href="https://www.linkedin.com/in/erol-bickici-9683a4183" target="_blank">Erol Bickici</a> - emb689</p>
-        <p><a href="mailto:emb689@nyu.edu">emb689@nyu.edu</a></p>
+        <p class="footer-signature-wrapper"><a class="footer-signature"
+                href="https://www.linkedin.com/in/erol-bickici-9683a4183" target="_blank">Erol Bickici</a> - emb689</p>
+        <p class="footer-email-wrapper"><a class="footer-email" href="mailto:emb689@nyu.edu">emb689@nyu.edu</a></p>
     </footer>
 </body>
 

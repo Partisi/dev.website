@@ -1,0 +1,45 @@
+body {
+    font-family: "Playfair Display", serif;
+    background: #b707ed;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+h2 {
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+    letter-spacing: .02em;
+}
+.generic-article-wrapper {
+    background: #c7efcf;
+    border-radius: 8px;
+    padding: 8px 24px;
+    margin: 12px 0px;
+}
+.generic-article-header {
+    font-size: 24px;
+    text-decoration: underline;
+}
+.paragraph-block {
+    line-height: 32px;
+}
+
+.generic-link {
+    color: #6d2df7;
+}
+.generic-link:visited {
+    color: #9c72f8;
+}
+.generic-link:hover {
+    font-weight: bold;
+}
+.generic-link:active {
+    color: lightpink;
+}

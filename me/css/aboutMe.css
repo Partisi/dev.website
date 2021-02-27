@@ -1,0 +1,63 @@
+main {
+    margin: 24px;
+}
+.main-page-header-about-me {
+    background: #23a7ff;
+    padding: 42px 24px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 32px;
+}
+
+.main-about-me-wrapper {
+    background: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+.main-about-me-info {
+    background: lightcyan;
+    border-radius: 12px;
+    padding: 4px 24px;
+}
+
+.cute-gif-text {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+.super-kungfu-gif-wrapper {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.super-kungfu-gif {
+    border: 4px solid lightblue;
+}
+.top-about-me-info {
+    background: lightcyan;
+    border-radius: 12px;
+    padding: 4px 24px;
+    margin-top: 24px;
+}
+#picture-time-list {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+.each-picture-item {
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.pic-info {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+.pic-main {
+    border: 4px solid rgb(106, 208, 241);
+}

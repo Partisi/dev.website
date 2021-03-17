@@ -33,6 +33,11 @@ main {
 .super-kungfu-gif {
     border: 4px solid lightblue;
 }
+.raster-img-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
 .top-about-me-info {
     background: lightcyan;
     border-radius: 12px;

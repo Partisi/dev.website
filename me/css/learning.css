@@ -49,3 +49,30 @@ main {
 .book-img {
   float: right;
 }
+
+#svg-example-container {
+  width: 100%;
+  background: rgb(172, 208, 230);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+#svg-main-icon-container {
+  width: 340px;
+}
+#svg-main-icon-container #svg-redirect-wrapper:active {
+  fill: silver;
+}
+#svg-main-icon-container svg:hover {
+  cursor: pointer;
+}
+#svg-main-icon-container svg:hover #laptop .cls-5 {
+  fill: lightgreen;
+}
+#svg-main-icon-container svg:hover #laptop .cls-6 {
+  fill: yellow;
+}
+#svg-main-icon-container svg:hover #hair .cls-17 {
+  fill: #faf0be;
+}

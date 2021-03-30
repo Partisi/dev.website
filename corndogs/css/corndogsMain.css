@@ -1,0 +1,65 @@
+/* <-- Meme Main CSS --> */
+
+/*
+#845EC2
+#F3C5FF
+#00C9A7
+#FEFEDF
+
+*/
+
+body {
+    margin: 0;
+}
+.top-nav-main-link {
+    font-size: 24px;
+    width: 240px;
+    text-align: center;
+    padding: 16px 0;
+    background: #503058;
+    color: white;
+}
+.header-main-page {
+    display: inline-flex;
+    width: 100%;
+}
+.top-nav-main-list {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background: #f3c5ff;
+}
+.top-nav-link:link {
+    margin: 0 18px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+.top-nav-link:hover {
+    color: #845ec2;
+}
+
+.corndog-header {
+    text-align: center;
+    background: #fefedf;
+    height: 64px;
+    line-height: 64px;
+    border-top: 4px solid #00c9a7;
+    border-bottom: 4px solid #00c9a7;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-nav-main-link {
+        font-size: 18px;
+        width: 140px;
+    }
+    .top-nav-link:link {
+        font-size: 14px;
+    }
+    .corndog-header {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+/* <-- Favorite Corndogs CSS --> */
+
+#corndog-fav-wrapper {
+    width: 100%;
+}
+#corndog-fav-description {
+    background: #F3C5FF;
+    border-radius: 4px;
+    padding: 12px 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#fav-corndog-main-list-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#fav-corndog-main-list {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 4px;
+    width: 100%;
+}
+
+#fav-corndog-main-list > li {
+    border: 8px solid #a4e6db;
+    margin: 14px 6px;
+    border-radius: 8px;
+    background: #42ceb6;
+    padding: 4px 4px 0px;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 16px 24px;
+}
+
+.fav-corndog-list-header {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 4px;
+}
+
+.fav-corndog-list-pic {
+    width: 320px;
+    height: 320px;
+}

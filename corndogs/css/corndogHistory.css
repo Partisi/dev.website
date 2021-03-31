@@ -1,24 +1,20 @@
 /* <-- History Corndogs CSS --> */
-#corndog-history-wrapper {
-    width: 98%;
-    margin: 12px auto;
-    background: #fefedf;
-    border-radius: 12px;
-}
 
+#corndog-history-wrapper {
+    background: #fefedf;
+    margin: 4px 24px;
+}
 #corndog-history-wrapper > article > .corndog-history-subheader {
     font-size: 24px;
 }
 #corndog-origin-history-wrapper {
-    padding: 12px 24px;
     border-radius: 12px;
     background: #00C9A7;
+    padding: 12px 24px;
 }
 #center-quoted {
     font-style: italic;
 }
-
-
 #different-corn-dog-names-list {
     list-style: none;
     padding: 0;
@@ -37,7 +33,6 @@
     padding: 12px 24px;
     margin: 2px 12px;
 }
-
 .corn-dog-name-header {
     font-size: 24px;
     margin: 12px 12px 4px;

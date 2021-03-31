@@ -28,12 +28,13 @@
 }
 
 #fav-corndog-main-list > li {
-    border: 8px solid #a4e6db;
+    
     margin: 14px 6px;
     border-radius: 8px;
-    background: #42ceb6;
-    padding: 4px 4px 0px;
-    box-shadow: rgba(0, 0, 0, 0.44) 0px 16px 24px;
+    
+    border-top: 8px solid #a4e6db;
+    
+   
 }
 
 .fav-corndog-list-header {
@@ -41,10 +42,10 @@
     margin: 0;
     text-align: center;
     line-height: 42px;
-    margin-bottom: 4px;
+    background: #d6faf4;
 }
 
 .fav-corndog-list-pic {
-    width: 320px;
-    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 16px 24px;
+    border-top: 6px solid #a4e6db;
 }

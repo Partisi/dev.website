@@ -30,7 +30,8 @@
         <section>
             <article id="corndog-fav-wrapper">
                 <div id="corndog-fav-description">
-                    <p>These corn dogs are my absolute favorite. There is absolutely no excuse for a poor corn dog and any
+                    <p>These corn dogs are my absolute favorite. There is absolutely no excuse for a poor corn dog and
+                        any
                         corndog that performs subpar deliciousness should, at best, be considered a full blown insult.
                     </p>
                     <p>While there exists many corndogs that are amongst my favorite, these have a special place in my
@@ -42,20 +43,37 @@
                     <ul id="fav-corndog-main-list">
                         <li>
                             <h6 class="fav-corndog-list-header">The Classic</h6>
-                            <img class="fav-corndog-list-pic" src="./assets/classic.jpg" />
-                        </li>
-                        <li>
-                            <h6 class="fav-corndog-list-header">The Korean</h6>
-                            <img class="fav-corndog-list-pic" src="./assets/korean.jpg" />
-                        </li>
-                        <li>
-                            <h6 class="fav-corndog-list-header">The Spam</h6>
-                            <img class="fav-corndog-list-pic" src="./assets/spam.jpg" />
+                            <picture class="fav-corndog-list-pic">
+                                <source media="(min-width: 600px)" srcset="assets/classic.jpg">
+                                <source media="(min-width: 300px)" srcset="assets/classic-small.jpg">
+                                <img src="assets/classic-small.jpg" alt="classic small">
+                            </picture>
                         </li>
                         <li>
                             <h6 class="fav-corndog-list-header">The Waffle</h6>
-                            <img class="fav-corndog-list-pic" src="./assets/waffle.jpg" />
+                            <picture class="fav-corndog-list-pic">
+                                <source media="(min-width: 600px)" srcset="assets/waffle.jpg">
+                                <source media="(min-width: 300px)" srcset="assets/waffle-small.jpg">
+                                <img src="assets/waffle-small.jpg" alt="waffle small">
+                            </picture>
                         </li>
+                        <li>
+                            <h6 class="fav-corndog-list-header">The Korean</h6>
+                            <picture class="fav-corndog-list-pic">
+                                <source media="(min-width: 600px)" srcset="assets/korean.jpg">
+                                <source media="(min-width: 300px)" srcset="assets/korean-small.jpg">
+                                <img src="assets/korean-small.jpg" alt="korean small">
+                            </picture>
+                        </li>
+                        <li>
+                            <h6 class="fav-corndog-list-header">The Spam</h6>
+                            <picture class="fav-corndog-list-pic">
+                                <source media="(min-width: 600px)" srcset="assets/spam.jpg">
+                                <source media="(min-width: 300px)" srcset="assets/spam-small.jpg">
+                                <img src="assets/spam-small.jpg" alt="spam small">
+                            </picture>
+                        </li>
+
                     </ul>
                 </div>
 

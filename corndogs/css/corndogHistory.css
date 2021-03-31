@@ -1,0 +1,55 @@
+/* <-- History Corndogs CSS --> */
+#corndog-history-wrapper {
+    width: 98%;
+    margin: 12px auto;
+    background: #fefedf;
+    border-radius: 12px;
+}
+
+#corndog-history-wrapper > article > .corndog-history-subheader {
+    font-size: 24px;
+}
+#corndog-origin-history-wrapper {
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: #00C9A7;
+}
+#center-quoted {
+    font-style: italic;
+}
+
+
+#different-corn-dog-names-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    background-color: #845ec2;
+    padding: 12px;
+}
+
+#different-corn-dog-names-list > li {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 12px 24px;
+    margin: 2px 12px;
+}
+
+.corn-dog-name-header {
+    font-size: 24px;
+    margin: 12px 12px 4px;
+}
+.corn-dog-name-value {
+    margin: 4px 12px 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    #different-corn-dog-names-list {
+        grid-template-columns: auto auto;
+    }
+}

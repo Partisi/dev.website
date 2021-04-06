@@ -1,0 +1,108 @@
+/* <-- Main Design Shared --> */
+
+body {
+    margin: 0;
+}
+.header-nav-wrapper {
+    height: 64px;
+    background: white;
+}
+.header-nav-wrapper > .nav-inner-wrapper {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+.nav-inner-wrapper > .each-nav {
+    width: 240px;
+    background: white;
+    margin: 0px 12px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 24px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 4px solid grey;
+    border-bottom: none;
+    text-decoration: none;
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.nav-inner-wrapper > .each-nav:hover {
+    background: rgb(245, 245, 245);
+}
+.nav-inner-wrapper > #main-nav-home {
+    color: rgb(117, 13, 117);
+    background: rgb(216, 216, 216);
+}
+.nav-inner-wrapper > #main-nav-home:hover {
+    background: rgb(204, 204, 204);
+}
+.generic-sub-heading {
+    margin: 0;
+    font-size: 24px;
+}
+#grid-main-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background: #303030;
+    height: calc(100vh - 88px);
+    padding: 12px;
+}
+.top-grid-wrapper,
+.left-grid-sidebar,
+.main-grid-photo-shoots {
+    background: #d1fdff;
+}
+.top-grid-header {
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    vertical-align: center;
+    margin: 0;
+    background: #5fd2d8;
+}
+.top-grid-header > h1 {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 48px;
+}
+.top-grid-wrapper {
+    border-radius: 12px;
+    grid-column: 2 / 4;
+    grid-row: 1;
+    margin: 0;
+    padding: 8px 12px 4px;
+    overflow-y: scroll;
+}
+.left-grid-sidebar {
+    border-radius: 12px;
+    grid-column: 1;
+    grid-row: 2 / 5;
+    margin: 0;
+}
+.main-grid-photo-shoots {
+    border-radius: 12px;
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 8px;
+}
+
+.photoshoot-pic {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}

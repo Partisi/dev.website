@@ -1,0 +1,30 @@
+/* <-- Penguin Established --> */
+
+.inner-grid-photo-shoots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+.inner-grid-photo-shoots > li {
+    padding: 0px;
+    height: 240px;
+    border: 4px solid rgb(211, 154, 223);
+    background: white;
+    overflow:hidden;
+    border-radius: 12px;
+}
+.fun-fact-heading {
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+.fun-fact-list {
+    font-size: 20px;
+    padding-right: 12px;
+}
+.fun-fact-list > .fun-fact {
+    padding-bottom: 16px;
+}

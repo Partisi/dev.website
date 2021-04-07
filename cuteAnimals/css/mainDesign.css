@@ -1,7 +1,7 @@
 /* <-- Main Design Shared --> */
-
 body {
     margin: 0;
+    font-family: "Playfair Display", sans-serif;
 }
 .header-nav-wrapper {
     height: 64px;
@@ -29,7 +29,6 @@ body {
     color: lightseagreen;
     font-weight: bold;
 }
-
 .nav-inner-wrapper > .each-nav:hover {
     background: rgb(245, 245, 245);
 }

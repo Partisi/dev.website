@@ -68,6 +68,12 @@
             <a class="top-nav-link" href="./learning.html">Path of Learning</a>
             <a class="top-nav-link" href="./interests.html">Interests</a>
         </nav>
+
+        <!-- New JS Functionality -->
+        <script src="js/generalBackground.js"></script>
+        <script src="js/whatFoodToday.js" async></script>
+        <script src="js/generateFood.js" async></script>
+        <!-------------------------->
     </header>
 
     <main>
@@ -98,6 +104,29 @@
                     src="https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/WBC_7095.jpg?format=2500w"
                     alt="tons-of-food" width="300" height="200" />
             </article>
+
+            <!-- New JS Functionality -->
+            
+
+            <article id="js-functionality-example">
+                <h2>What am I feeling today...?</h2>
+                <p>We believe you are feeling <span id="food-of-the-day"></span> because today is <span id="today-week"></span></p>
+                <p>Based on the current time of day, we also recommend drinking a <span id="drink-of-time"></span></p>
+
+                <h4 class="food-attitude"></h4>
+            </article>
+            
+            <article id="random-food-generator">
+                <h2>Enjoy a More Random Approach to Food Choices?</h2>
+                <h3>Click the button below to randomly generate a food choice!</h3>
+                <button type="button" id="button-generate-food">Feed Me!</button>
+                <div>
+                    <h4 id="food-rando-name"></h4>
+                </div>
+            </article>
+            
+            <!-------------------------->
+
             <article id="foods-i-love-wrapper">
                 <h2>Foods I Love</h2>
                 <p>I love a lot of food, but in particular, the following is a short list of my favorites!</p>

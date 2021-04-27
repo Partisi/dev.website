@@ -210,7 +210,7 @@
 }
 
 /* Resize */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .section-generic-header {
         text-align: center;
         margin-left: 0;

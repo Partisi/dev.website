@@ -1,0 +1,28 @@
+#bio-wrapper {
+    background: #f0f0f0;
+    padding: 12px 24px;
+    border-radius: 16px;
+    display: block;
+}
+#bio-hello {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+#bio-pic {
+    float: left;
+    width: 264px;
+    margin-right: 32px;
+    border: 2px solid #00C5DF;
+    border-radius: 12px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #bio-pic {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}

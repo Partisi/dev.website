@@ -51,12 +51,17 @@ smokey white:
 
 /* Main Wrapper */
 #main-wrapper {
-    margin: 12px 24px;
+    margin: 12px 24px 12px;
+    min-height: calc(100vh - 252px);
 }
 
 /* Footer */
 
 #footer-wrapper {
+    display: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background: #365559;
     border-top: 4px solid #82cfd9;
     height: 160px;
@@ -83,7 +88,7 @@ smokey white:
     padding: 6px;
 }
 .social-media-icon:hover {
-    background: #82CFD9;
+    background: #82cfd9;
 }
 #math-bottom-wrapper {
     display: inline-flex;
@@ -102,11 +107,11 @@ smokey white:
 }
 .math-formula > a {
     text-decoration: none;
-    color: #00C5DF;
+    color: #00c5df;
 }
 .math-formula > a:hover {
     cursor: pointer;
-    color: #82CFD9;
+    color: #82cfd9;
 }
 .copyright-tag {
     text-align: center;

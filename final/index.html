@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Erol Bickici" />
+    <meta name="description" content="Erol's developer overview and achievements!" />
+
+    <link rel="icon" href="./assets/icons8-neo.svg">
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/home.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,400;0,600;0,700;1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- Loads in Math CDN -->
+    <!--Ref: https://codingislove.com/display-maths-formulas-webpage/ -->
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        });
+    </script>
+
+    <script src="scripts/shuffleAttributes.js" async></script>
+
+    <title>Developer Erol</title>
+
+</head>
+
+<body>
+    <header id="header-wrapper">
+        <nav id="nav-wrapper">
+            <a class="nav-link-home" href="./index.html">Erol</a>
+            <a class="nav-link" href="./bio.html">Bio</a>
+            <a class="nav-link" href="./humble.html">Humble</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main id="main-wrapper">
+
+        <section id="intro-section">
+            <video id="background-video" autoplay muted loop>
+                <source src="./assets/puppo.mp4" type="video/mp4">
+                Sorry, there appears to be a problem loading this video?
+            </video>
+
+            <h1 id="name-intro">Erol Bickici</h1>
+            <ul id="humble-brags-attributes">
+                <li>Developer,</li>
+                <li>Innovator,</li>
+                <li>Overachiever</li>
+            </ul>
+            <p id="humble-lol">Also extremely humble!</p>
+        </section>
+
+        
+
+        <section id="overview-section-wrapper">
+            <article>
+                <p>Welcome to my page! Here you can find a summary of my achievements, education, and other things about
+                    myself!</p>
+            </article>
+        </section>
+
+        <div id="overview-break"></div>
+
+        <section id="skills-section-wrapper">
+            <h2 class="section-generic-header">Skills & Tools</h2>
+            <div id="skills-col">
+                <article class="article-skill-wrapper">
+                    <h4 class="skill-header">Programming Languages</h4>
+                    <ul class="skill-list">
+                        <li>Swift <span class="skill-list-minor">the first language I learned!</span></li>
+                        <li>HTML</li>
+                        <li>CSS (SCSS)</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C#</li>
+                        <li>Assembly <span class="skill-list-minor">don't judge me!</span></li>
+                    </ul>
+                </article>
+                <article class="article-skill-wrapper">
+                    <h4 class="skill-header">Commonly Used Frameworks & Libraries</h4>
+                    <ul class="skill-list">
+                        <li>ReactJS</li>
+                        <li>React Native</li>
+                        <li>Angular</li>
+                        <li>Bootstrap</li>
+                        <li>Chai</li>
+                        <li>Mocha</li>
+                        <li>Jenkins</li>
+                        <li>Express</li>
+                        <li>TravisCI</li>
+                    </ul>
+                </article>
+                <article class="article-skill-wrapper">
+                    <h4 class="skill-header">Platforms & Tools</h4>
+                    <ul class="skill-list">
+                        <li>Google Cloud <span class="skill-list-minor">Certificate coming soon!</span></li>
+                        <li>Amazon Web Services</li>
+                        <li>MongoDB</li>
+                        <li>Gitlab</li>
+                        <li>Github</li>
+                        <li>Figma <span class="skill-list-minor">For the occasional design!</span></li>
+                        <li>Codepen</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="work-section-wrapper">
+            <h2 class="section-generic-header">Work & Projects</h2>
+            <ul id="project-list">
+                <li class="project-wrapper">
+                    <img class="project-pic" src="./assets/coopsight-logo.png" alt="coopsight pic"/>
+                    <article class="project-inner">
+                        <h3 class="project-header">Coopsight</h3>
+                        <p>My pride, joy, and company. Coopsight is a platform that discovers and forges synergestic
+                            partnerships for startups. Coopsight not only simplifies the process of finding partnerships
+                            but also excels at identifying strengths between companies!</p>
+                    </article>
+                </li>
+                <li class="project-wrapper">
+                    <img class="project-pic" src="./assets/icons8-teenager-male-96.png" alt="facebook friends pic"/>
+                    <article class="project-inner">
+                        <h3 class="project-header">Facebook Friends</h3>
+                        <p>This project took current social media algorithms of suggesting friends to a higher, more
+                            user-friendly level that allows for custom user settings to find new friends on Facebook.
+                            Users can choose what weights are most
+                            important to them and only those weights are what is calculated in friend finding!</p>
+                    </article>
+                </li>
+                <li class="project-wrapper">
+                    <img class="project-pic" src="./assets/meme-god.png" alt="stonks pic"/>
+                    <article class="project-inner">
+                        <h3 class="project-header">Stonks Only Go Up</h3>
+                        <p>Initially starting as a joke, this app allows users to see the 'hypest' stocks that are being
+                            talked about the most on social media. From there, users can build their portfolios with the
+                            usual stock financial data but with this innovative, cutting-edge attribute.</p>
+                    </article>
+                </li>
+                <li class="project-wrapper">
+                    <img class="project-pic" src="./assets/globe.png" alt="emerging market pic"/>
+                    <article class="project-inner">
+                        <h3 class="project-header">Emerging Markets</h3>
+                        <p>Emerging markets are not only a growing trend, but data about these new markets is often
+                            overwhelming and complex. This app takes that same data and narrows it down to be more
+                            focused.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <a href="./contact.html">
+            <button id="reach-out-bttn-main">
+                Want to reach out?
+            </button>
+        </a>
+
+    </main>
+
+    <footer id="footer-wrapper">
+        <ul id="social-media-links">
+            <li class="social-media-wrapper">
+                <a href="https://www.facebook.com/erol.bickici" target="_blank">
+                    <img class="social-media-icon" src="assets/social-media-icons/icons8-facebook-50.png"
+                        alt="facebook icon" />
+                </a>
+            </li>
+            <li class="social-media-wrapper">
+                <a href="https://www.instagram.com/ErolBickici/" target="_blank">
+                    <img class="social-media-icon" src="assets/social-media-icons/icons8-instagram-50.png"
+                        alt="instagram icon" />
+                </a>
+            </li>
+            <li class="social-media-wrapper">
+                <a href="https://twitter.com/ErolBickici" target="_blank">
+                    <img class="social-media-icon" src="assets/social-media-icons/icons8-twitter-50.png"
+                        alt="twitter icon" />
+                </a>
+            </li>
+            <li class="social-media-wrapper">
+                <a href="https://www.linkedin.com/in/erol-bickici-9683a4183/" target="_blank">
+                    <img class="social-media-icon" src="assets/social-media-icons/icons8-linkedin-50.png"
+                        alt="linkedin icon" />
+                </a>
+            </li>
+            <li class="social-media-wrapper">
+                <a href="https://medium.com/@emb689/about" target="_blank">
+                    <img class="social-media-icon" src="assets/social-media-icons/icons8-medium-50.png"
+                        alt="medium icon" />
+                </a>
+            </li>
+        </ul>
+        <div id="math-bottom-wrapper">
+            <p class="math-time">
+                Designed and Coded by Erol with
+
+            </p>
+            <p class="math-formula">
+                <a href="https://www.desmos.com/calculator/lncpsghko4" target="_blank">
+                    $$(x^2 + y^2 - 1)^3 = x^2y^3$$
+                </a>
+            </p>
+        </div>
+        <p class="copyright-tag"> &#169; by Erol</p>
+    </footer>
+
+</body>
+
+</html>

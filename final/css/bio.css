@@ -1,3 +1,8 @@
+/*
+
+    Bio Page
+
+*/
 #bio-wrapper {
     background: #f0f0f0;
     padding: 12px 24px;
@@ -17,7 +22,23 @@
     border: 2px solid #00c5df;
     border-radius: 12px;
 }
-
+#image-bio-wrapper {
+    position: relative;
+}
+#audio-self {
+    border: none;
+    background: none;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+  
+    z-index: 99999999;
+    width: 100px;
+    height: 100px;
+}
+#audio-self:hover {
+    cursor: pointer;
+}
 @media only screen and (max-width: 900px) {
     #bio-pic {
         display: block;

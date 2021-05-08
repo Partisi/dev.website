@@ -24,7 +24,8 @@
         });
     </script>
 
-    <script src="scripts/shuffleAttributes.js" async></script>
+    <script src="scripts/contentProjects.js" async></script>
+    <script src="scripts/greetingTime.js" async></script>
 
     <title>Home | Erol</title>
 
@@ -56,11 +57,10 @@
             <p id="humble-lol">and extremely humble!</p>
         </section>
 
-        
 
         <section id="overview-section-wrapper">
             <article>
-                <p>Welcome to my page! Here you can find a summary of my achievements, education, and other things about
+                <p><span id="greeting-info"></span> Welcome to my page! Here you can find a summary of my achievements, education, and other things about
                     myself!</p>
             </article>
         </section>
@@ -114,9 +114,24 @@
 
         <section id="work-section-wrapper">
             <h2 class="section-generic-header">Work & Projects</h2>
+            <div id="extra-info-project-wrapper" class="hide-info">
+                <button id="back-button-project">⬅ BACK</button>
+                <div id="left-side-extra">
+                    <div id="section-top-info">
+                        <h2 id="ei-name"></h2>
+                        <h3 id="ei-status"></h3>
+                        <h3 id="ei-status-icon"></h3>
+                    </div>
+                    <p id="ei-info"></p>
+                </div>
+                <div id="right-side-extra">
+                    <img id="right-side-img"></img>
+                </div>
+
+            </div>
             <ul id="project-list">
                 <li class="project-wrapper">
-                    <img class="project-pic" src="./assets/coopsight-logo.png" alt="coopsight pic"/>
+                    <img class="project-pic" src="./assets/coopsight-logo.png" alt="coopsight pic" />
                     <article class="project-inner">
                         <h3 class="project-header">Coopsight</h3>
                         <p>My pride, joy, and company. Coopsight is a platform that discovers and forges synergestic
@@ -125,7 +140,7 @@
                     </article>
                 </li>
                 <li class="project-wrapper">
-                    <img class="project-pic" src="./assets/icons8-teenager-male-96.png" alt="facebook friends pic"/>
+                    <img class="project-pic" src="./assets/icons8-teenager-male-96.png" alt="facebook friends pic" />
                     <article class="project-inner">
                         <h3 class="project-header">Facebook Friends</h3>
                         <p>This project took current social media algorithms of suggesting friends to a higher, more
@@ -135,7 +150,7 @@
                     </article>
                 </li>
                 <li class="project-wrapper">
-                    <img class="project-pic" src="./assets/meme-god.png" alt="stonks pic"/>
+                    <img class="project-pic" src="./assets/meme-god.png" alt="stonks pic" />
                     <article class="project-inner">
                         <h3 class="project-header">Stonks Only Go Up</h3>
                         <p>Initially starting as a joke, this app allows users to see the 'hypest' stocks that are being
@@ -144,7 +159,7 @@
                     </article>
                 </li>
                 <li class="project-wrapper">
-                    <img class="project-pic" src="./assets/globe.png" alt="emerging market pic"/>
+                    <img class="project-pic" src="./assets/globe.png" alt="emerging market pic" />
                     <article class="project-inner">
                         <h3 class="project-header">Emerging Markets</h3>
                         <p>Emerging markets are not only a growing trend, but data about these new markets is often

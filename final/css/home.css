@@ -1,3 +1,9 @@
+/*
+
+    Home Page
+
+*/
+
 #intro-section {
     display: flex;
     flex-direction: column;
@@ -87,6 +93,11 @@
     margin-left: 64px;
 }
 
+/* Initial Greeting */
+#greeting-info{
+    font-weight: bold;
+}
+
 /* Brief Overview */
 #overview-section-wrapper {
     background: #f0f0f0;
@@ -94,8 +105,7 @@
     margin: 24px auto;
     border-radius: 16px;
     font-size: 20px;
-    text-align: center;
-    
+    text-align: left;
 }
 #overview-section-wrapper p {
     font-weight: lighter;
@@ -104,7 +114,7 @@
 #overview-break {
     width: calc(50% - 48px);
     margin: 0 auto;
-    border-bottom: 1px solid #82CFD9;
+    border-bottom: 1px solid #82cfd9;
 }
 
 /* Skills */
@@ -174,6 +184,88 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+#work-section-wrapper > #project-list .project-wrapper:hover {
+    background: #dcfaff;
+    cursor: pointer;
+}
+.hide-info {
+    display: none;
+}
+.show-display-inline {
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    margin-top: 48px;
+}
+#left-side-extra {
+    width: 50%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 24px;
+    position: relative;
+}
+#right-side-extra {
+    width: 50%;
+    height: 240px;
+    display: inline-flex;
+    align-items: center;
+    
+}
+#right-side-img {
+    width: 100%;
+    min-width: 180px;
+    max-width: 200px;
+    object-fit: cover;
+    margin: auto auto;
+}
+#left-side-extra:hover {
+    background: #dcfaff;
+    cursor: pointer;
+}
+#back-button-project {
+    background: #67a3ab;
+    border: none;
+    width: 80px;
+    height: 32px;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    top: -48px;
+    z-index: 999999999999;
+}
+
+#section-top-info > #ei-name {
+    color: #00c5df;
+    text-decoration: underline;
+}
+#back-button-project:hover {
+    cursor: pointer;
+    background: #53858b;
+}
+#section-top-info {
+    display: inline-flex;
+    align-items: center;
+}
+#section-top-info > h2 {
+    margin-right: 24px;
+}
+#section-top-info > #ei-status {
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    right: 36px;
+}
+#section-top-info > #ei-status-icon {
+    font-size: 12px;
+    position: absolute;
+    top: 9px;
+    right: 18px;
+}
+/* */
 .project-pic {
     min-width: 180px;
     max-width: 180px;
@@ -194,7 +286,7 @@
     width: 100%;
     border: none;
     height: 112px;
-    background: #00C5DF;
+    background: #00c5df;
     padding: 12px 24px;
     border-radius: 16px;
     margin-top: 24px;
@@ -226,6 +318,18 @@
     }
     #work-section-wrapper > #project-list {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .show-display-inline {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #left-side-extra {
+        width: calc(100% - 48px);
+        margin: 0;
+    }
+    #right-side-extra {
+        width: 100%;
     }
 }
 

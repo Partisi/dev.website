@@ -23,8 +23,7 @@
             tex2jax: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
         });
     </script>
-
-    <script src="scripts/shuffleAttributes.js" async></script>
+    <script src="https://kwes.io/v2/kwes-script.js" defer></script>
 
     <title>Contact | Erol</title>
 
@@ -39,9 +38,52 @@
             <a class="nav-link" href="./contact.html">Contact</a>
         </nav>
     </header>
+
     <main id="main-wrapper">
 
+        <article id="contact-main-wrapper">
+            <h1>Contact</h1>
+            <section id="form-wrapper">
+
+                <form id="form-direct" class="kwes-form"
+                    action="https://kwes.io/api/foreign/forms/hoiEAdMcwrjOIfcdQa4L">
+
+                    <div class="input-wrapper">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Your name..." required autocomplete="off">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="name">Email</label>
+                        <input type="email" name="email" placeholder="Your email..." required autocomplete="off">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="subject">Reason for Outreach</label>
+                        <select name="subject" required>
+                            <option id="select-disable" disabled selected value>Select a reason...</option>
+                            <option value="work">Work Opportunities</option>
+                            <option value="project">Comments on Projects</option>
+                            <option value="suggestions">Project Suggestions</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="message">Message</label>
+                        <textarea name="message" placeholder="Your message..." required autocomplete="off"></textarea>
+                    </div>
+
+                    <button id="submit-contact-form" type="submit">Submit</button>
+                </form>
+            </section>
+        </article>
     </main>
+
+
+
+
+
 
     <footer id="footer-wrapper">
         <ul id="social-media-links">
@@ -89,6 +131,8 @@
         </div>
         <p class="copyright-tag"> &#169; by Erol</p>
     </footer>
+
+
 
 </body>
 

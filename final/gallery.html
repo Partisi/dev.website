@@ -8,7 +8,7 @@
 
     <link rel="icon" href="./assets/icons8-neo.svg">
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" href="./css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="./css/gallery.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -24,7 +24,7 @@
         });
     </script>
 
-    <script src="scripts/shuffleAttributes.js" async></script>
+    <script src="scripts/videoPlayer.js" async></script>
 
     <title>Gallery | Erol</title>
 
@@ -39,7 +39,53 @@
             <a class="nav-link" href="./contact.html">Contact</a>
         </nav>
     </header>
+
     <main id="main-wrapper">
+        <article id="gal-top-wrapper">
+            <h1>Erol's Gallery</h1>
+            <p>This page shows as a display some puppies. I really didn't think of anything clever to display instead so
+                being the unoriginal lad I am, puppies are the move for today. Enjoy!</p>
+        </article>
+        <article id="gal-full-wrapper">
+            <section id="first-gal-wrapper" class="gal-wrappers">
+                <video id="first-gal-img" class="generic-video-auto" autoplay>
+                    <source src="./assets/puppo.mp4" type="video/mp4">
+                    Issue
+                </video>
+            </section>
+            <section id="second-gal-wrapper" class="gal-wrappers">
+                <video id="second-gal-img" class="generic-video-auto" autoplay>
+                    <source src="./assets/doggo2.mp4" type="video/mp4">
+                    Issue
+                </video>
+            </section>
+            <section id="third-gal-wrapper" class="gal-wrappers">
+                <video id="third-gal-img" class="generic-video-auto" autoplay>
+                    <source src="./assets/doggo3.mp4" type="video/mp4">
+                    Issue
+                </video>
+            </section>
+            <section id="fourth-gal-wrapper" class="gal-wrappers">
+                <video id="fourth-gal-img" class="generic-video-auto" autoplay>
+                    <source src="./assets/dogg5.mp4" type="video/mp4">
+                    Issue
+                </video>
+            </section>
+            <section id="fifth-gal-wrapper" class="gal-wrappers">
+                <video id="fifth-gal-img" class="generic-video-auto" autoplay>
+                    <source src="./assets/doggo6.mp4" type="video/mp4">
+                    Issue
+                </video>
+            </section>
+        </article>
+
+        <article id="bottom-video-extra">
+            <p>Here is also a short video that I found while procrastinating this assignment:</p>
+            <iframe id="lets-goooo" width="560" height="315" src="https://www.youtube.com/embed/Nw4kDgR_D2s"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </article>
 
     </main>
 

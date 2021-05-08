@@ -1,0 +1,114 @@
+#gal-full-wrapper {
+    background: #4b6163;
+    background: url("https://photo-cdn2.icons8.com/_ni23TcPEKxXLRYcNVOdV4enzHdmWOLufxeKAz0N6eA/rs:fit:1072:1072/Z3M6Ly9tb29zZTIv/YXNzZXRzL3NhdGEv/b3JpZ2luYWwvMjE5/LzRhODc2YTNjLTQ2/MjEtNGM5Ni1hYzJh/LTcxNDZhNmY0YjQ5/Zi5qcGc.jpg");
+    position: relative;
+    height: 1600px;
+    overflow-y: scroll;
+    border-radius: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: url("https://img.icons8.com/fluent/48/000000/doge.png"), auto;
+    max-width: 1000px;
+    min-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+#gal-top-wrapper p {
+    max-width: 1000px;
+    min-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+#gal-top-wrapper h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+#first-gal-wrapper,
+#second-gal-wrapper,
+#third-gal-wrapper,
+#fourth-gal-wrapper,
+#fifth-gal-wrapper {
+    background: #00c5df;
+    width: 400px;
+    padding: 8px 8px 4px 8px;
+    margin: 12px;
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+#first-gal-wrapper {
+    top: 20px;
+    left: 10px;
+    transform: rotate(-20deg);
+    z-index: 999999;
+}
+#second-gal-wrapper {
+    top: 20px;
+    right: 40px;
+    transform: rotate(10deg);
+}
+#third-gal-wrapper {
+    top: 400px;
+    left: 20px;
+    transform: rotate(-25deg);
+}
+#fourth-gal-wrapper {
+    top: 1000px;
+    right: 30px;
+    transform: rotate(12deg);
+    z-index: 999999;
+}
+#fifth-gal-wrapper {
+    top: 800px;
+    left: 30px;
+    transform: rotate(-5deg);
+}
+.generic-video-auto {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#bottom-video-extra {
+    max-width: 1000px;
+    min-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+#bottom-video-extra > p {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+    #gal-full-wrapper {
+        height: 2300px;
+    }
+    #gal-full-wrapper {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    #first-gal-wrapper {
+        top: 20px;
+        left: 10px;
+        transform: rotate(0deg);
+        z-index: 999999;
+    }
+    #first-gal-wrapper,
+    #second-gal-wrapper,
+    #third-gal-wrapper,
+    #fourth-gal-wrapper,
+    #fifth-gal-wrapper {
+        transform: rotate(0deg);
+        position: relative;
+
+        width: 400px;
+        display: block;
+        top: 0;
+        left: 0;
+        margin: 12px auto;
+    }
+}
